@@ -7,6 +7,9 @@ node_modules/
 # local npm cache used inside the repo when sandboxed
 .npm-cache/
 
+# npm auth file (contains a token — never commit)
+.npmrc
+
 # Logs
 *.log
 
