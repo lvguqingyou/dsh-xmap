@@ -32,7 +32,7 @@ DSH（DeepSeek Harness）工具插件：把通用 Excel 读表工具 [xmap](xmap
 dsh plugin --profile web add dsh-xmap
 
 # 方式二：从源码目录
-git clone <你的仓库地址> dsh-xmap
+git clone https://github.com/lvguqingyou/dsh-xmap.git   # HTTPS 不通时可用 SSH：git@github.com:lvguqingyou/dsh-xmap.git
 dsh plugin --profile web add <克隆下来的 dsh-xmap 目录>
 ```
 

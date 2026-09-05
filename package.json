@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "xmap Excel schema-map tools for DeepSeek Harness — peek/extract/verify/aggregate large Excel sheets with a reusable column-mapping spec library. 模型只写一份几百字节的列映射 spec，引擎用 Excel COM 在模型上下文之外把整张表读成 JSONL。",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvguqingyou/dsh-xmap.git"
+  },
   "type": "module",
   "main": "index.js",
   "exports": {
