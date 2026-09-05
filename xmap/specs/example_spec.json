@@ -1,0 +1,1 @@
+{"headerRows":1,"dataStart":2,"cols":{"name":"商品名称","category":"类别","qty":"数量","amount":"金额"},"skipIfNameEmpty":true,"numeric":{"qty":1,"amount":1},"checkTotal":{"col":"金额","nameCol":"商品名称","label":"合计"}}

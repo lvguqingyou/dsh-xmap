@@ -1,0 +1,3 @@
+# Keep xmap.ps1 bytes intact: it must remain UTF-8 with BOM (Chinese headers),
+# so git must not normalize line endings or re-encode it.
+xmap/xmap.ps1 -text

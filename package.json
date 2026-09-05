@@ -1,0 +1,49 @@
+{
+  "name": "dsh-xmap",
+  "version": "0.1.0",
+  "description": "xmap Excel schema-map tools for DeepSeek Harness — peek/extract/verify/aggregate large Excel sheets with a reusable column-mapping spec library. 模型只写一份几百字节的列映射 spec，引擎用 Excel COM 在模型上下文之外把整张表读成 JSONL。",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "xmap/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "excel",
+    "xlsx",
+    "schema-map",
+    "extract",
+    "jsonl",
+    "powershell"
+  ],
+  "dependencies": {
+    "@deepseek-ai/schemastery": "^3.18.2"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "@deepseek-ai/dsh-sandbox": "^0.1.3-alpha.1",
+    "@deepseek-ai/dsh-tools": "^0.1.3-alpha.1"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

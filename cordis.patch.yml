@@ -1,0 +1,5 @@
+# dsh-xmap bundle patch — inserts the xmap tool plugin into a profile's layer stack.
+# Installed into a profile via: dsh plugin --profile web add <this-package>
+- insert:
+    - id: xmap
+      name: 'dsh-xmap'
